@@ -1,13 +1,24 @@
-
 export const COMPANY_INFO = {
+  name: "ARPRAN Industries",
   tagline: "Natural Stone. Timeless Elegance.",
   subtagline: "Indian Granite & Marble Exporters",
   motto: "Nature shapes every stone. We perfect every detail.",
   about:
     "ARPRAN Industries is a natural stone manufacturing and export company based in Jaipur, India, specializing in premium Indian granite and marble for global markets.",
+  email: "info@arpranindustries.com",
+  website: "arpranindustries.com",
+
   offices: {
     india: {
+      title: "India Office",
+      address: "Jaipur, Rajasthan, India",
+      phone: "+91-94140 68933",
       whatsappNumber: "919414068933"
+    },
+    australia: {
+      title: "Australia Office",
+      address: "Factory 31/7 Dunstans Ct, Thomastown VIC 3074",
+      phone: "+61-456006677"
     }
   }
 };
