@@ -8,22 +8,41 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background-color: #0d0e12;
-  color: #eaeaea;
+  background-color: #ffffff;
+  color: #0A4E9B;
   overflow-x: hidden;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
 }
+
 ::-webkit-scrollbar-track {
-  background: #0d0e12;
-}
-::-webkit-scrollbar-thumb {
-  background: #252834;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #0A4E9B;
+  background: #ffffff;
 }
 
+::-webkit-scrollbar-thumb {
+  background: #0A4E9B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06366D;
+}
+
+/* Light Theme */
+.bg-dark {
+  background-color: #ffffff !important;
+}
+
+.text-dark {
+  color: #0A4E9B !important;
+}
+
+/* Smooth transitions */
+* {
+  transition-property: background-color, border-color, color, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
